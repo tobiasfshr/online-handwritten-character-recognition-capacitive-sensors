@@ -18,7 +18,7 @@ The train/validation/test split is 80% / 5% / 15%. Together with the data augmen
 
 Results
 -
-As classification models I evaluated Recurrent Neural Networks (RNN) with Gated Recurrent Units (GRU), Convolutional Neural Networks and other, more classical machine learning models like Hidden Markov Models (HMM), Random Forests, Multi-Layer Perceptrons (MLP) and Support Vector Machines (SVM). However, the classical models did not provide a satisfying accuracy.
+As classification models I evaluated Recurrent Neural Networks (RNN) with Gated Recurrent Units (GRU), Convolutional Neural Networks (CNN) and other, more classical machine learning models like Hidden Markov Models (HMM), Random Forests, Multi-Layer Perceptrons (MLP) and Support Vector Machines (SVM). However, the classical models did not provide a satisfying accuracy.
 
 Model | Accuracy
 ----- | --------
