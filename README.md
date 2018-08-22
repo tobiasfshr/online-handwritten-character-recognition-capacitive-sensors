@@ -1,6 +1,6 @@
 # Online Handwritten Character Recognition with capacitive sensors
 
-In this project I evaluated several machine learning models for the task of online handwritten digit recognition. 
+In this project I evaluated different machine learning models on the task of online handwritten character recognition. 
 
 The dataset contains samples for six different letters (P, E, A, W, S and B), which can be written as capital, lower case or cursive letter, and a noise class with invalid symbols and other, not to be classified letters.
 The samples originate from (x,y) coordinate pairs taken with the Low Power Projected Capacitive Touchpad Development Kit by Microchip [1].
