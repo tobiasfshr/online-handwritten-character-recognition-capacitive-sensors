@@ -18,11 +18,11 @@ The train/validation/test split is 80% / 5% / 15%. Together with the data augmen
 
 Results
 -
-As classification models I evaluated Recurrent Neural Networks (RNN) with Gated Recurrent Units (GRU), Convolutional Neural Networks (CNN) and other, more classical machine learning models like Hidden Markov Models (HMM), Random Forests, Multi-Layer Perceptrons (MLP) and Support Vector Machines (SVM). However, the classical models did not provide a satisfying accuracy.
+As classification models I evaluated bi-directional Recurrent Neural Networks (RNN) with Gated Recurrent Units (GRU), Convolutional Neural Networks (CNN) and other, more classical machine learning models like Hidden Markov Models (HMM), Random Forests, Multi-Layer Perceptrons (MLP) and Support Vector Machines (SVM). However, the classical models did not provide a satisfying accuracy.
 
 Model | Accuracy
 ----- | --------
-RNN | 91.4%
+bi-dir RNN | 91.4%
 CNN | 86.7%
 MLP | 80.0%
 HMM | 79.1%
@@ -30,7 +30,7 @@ Linear SVM | 74.3%
 RandomForest | 72.4%
 Kernel SVM | 71.4%
 
-Since the Recurrent Neural Networks gave the most promising results, I tested several recent approaches to improve their performance like different attention mechanisms [3, 4], layer normalization [5] and Stochastic Weight Averaging [6].
+Since the bi-directional Recurrent Neural Networks gave the most promising results, I tested several recent approaches to improve their performance like different attention mechanisms [3, 4], layer normalization [5] and Stochastic Weight Averaging [6].
 
 Model | Accuracy
 ----- | --------
